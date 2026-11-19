@@ -1,0 +1,14 @@
+# Virtual environment (rebuild it from requirements.txt instead)
+.venv/
+
+# Data files are large and can be re-downloaded, so keep them out of git.
+# The .gitkeep files are kept so the empty folders still exist on GitHub.
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Python / Jupyter clutter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
